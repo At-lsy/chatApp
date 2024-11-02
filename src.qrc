@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imageSource/back.jpg</file>
+        <file>imageSource/chat_checked.png</file>
+        <file>imageSource/chat_default.png</file>
+        <file>imageSource/chat_hover.png</file>
+        <file>imageSource/con_default.png</file>
+        <file>imageSource/lxr_checked.png</file>
+        <file>imageSource/lxr_hover.png</file>
+        <file>imageSource/other_default.png</file>
+        <file>imageSource/other_hover.png</file>
+        <file>imageSource/pig.jpg</file>
+        <file>imageSource/qq.jpg</file>
+        <file>imageSource/chatLog_default.png</file>
+        <file>imageSource/chatLog_hover.png</file>
+        <file>imageSource/cut_default.png</file>
+        <file>imageSource/cut_hover.png</file>
+        <file>imageSource/face_default.png</file>
+        <file>imageSource/face_hover.png</file>
+        <file>imageSource/file_default.png</file>
+        <file>imageSource/file_hover.png</file>
+        <file>imageSource/video_default.png</file>
+        <file>imageSource/video_hover.png</file>
+        <file>imageSource/voice_default.png</file>
+        <file>imageSource/voice_hover.png</file>
+        <file>imageSource/lxr_default.png</file>
+        <file>imageSource/hide_default.png</file>
+        <file>imageSource/hide_hover.png</file>
+        <file>imageSource/show_default.png</file>
+        <file>imageSource/show_hover.png</file>
+        <file>imageSource/word.png</file>
+        <file>imageSource/add_friend.png</file>
+        <file>imageSource/message_chat.png</file>
+        <file>imageSource/video_chat.png</file>
+        <file>imageSource/voice_chat.png</file>
+        <file>imageSource/newFriend_request.png</file>
+        <file>imageSource/friend_search.png</file>
+        <file>imageSource/search_close.png</file>
+        <file>imageSource/right.png</file>
+        <file>imageSource/violate.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatListDlg</class>
+ <widget class="QWidget" name="ChatListDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>283</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>283</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>283</width>
+       <height>83</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>283</width>
+       <height>83</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#frame{
+	background-color: rgb(247, 247, 247);
+	border-right:2px solid rgb(214, 214, 214);
+	border-bottom:2px solid rgb(214, 214, 214);
+}
+#lineEdit_search{
+	background-color: rgb(226, 226, 226);
+	border:none;
+	border-radius:5px;
+}
+#tbut_add{
+	border:none;
+	border-radius:5px;
+	background-color: rgb(226, 226, 226);
+}
+#tbut_add:hover{
+	border:none;
+	border-radius:5px;
+	background-color: rgb(209, 209, 209);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_search">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>206</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>206</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>206</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>搜索</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="tbut_add">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>33</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>33</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>33</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>＋</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="listWidget">
+     <property name="styleSheet">
+      <string notr="true">#listWidget{
+	border:none;
+	border-right:2px solid rgb(214, 214, 214);
+	background-color: rgb(247, 247, 247);
+}
+#listWidget::item{
+	border:none;
+}
+#listWidget::item:hover{
+	border:none;
+	background-color: rgb(215, 215, 215);
+}
+#listWidget::item:selected{
+	border:none;
+	background-color: rgb(200, 200, 200);
+}</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
