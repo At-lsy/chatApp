@@ -307,32 +307,6 @@ QToolButton:hover{
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>230</y>
-        <width>89</width>
-        <height>24</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>1066577840</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>300</y>
-        <width>89</width>
-        <height>24</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>1276926781</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="but_register">
       <property name="geometry">
        <rect>

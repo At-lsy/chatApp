@@ -129,17 +129,6 @@ void LoginDlg::on_tbut_show_clicked()
     }
 }
 
-void LoginDlg::on_pushButton_clicked()
-{
-    myId="1066577840";
-    emit send_login("1066577840","123456789");
-}
-
-void LoginDlg::on_pushButton_2_clicked()
-{
-    myId="1276926781";
-    emit send_login("1276926781","123456789");
-}
 
 void LoginDlg::on_but_register_clicked()
 {

@@ -29,11 +29,6 @@ private slots:
     void on_tbut_mini_clicked();
     void on_but_login_clicked();
     void on_tbut_show_clicked();
-
-    void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
-
     void on_but_register_clicked();
 
 private:
